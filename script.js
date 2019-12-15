@@ -1,3 +1,4 @@
+// alrady created
 const array = [
     "Array.of()",
     "Array.prototype.concat()",
@@ -36,6 +37,6 @@ const array = [
 const fs = require('fs');
 
 
-for(const item of array){
-    fs.writeFileSync(`./Topics/Array Methods/${item}.md`);
-}
+// for(const item of array){
+//     fs.writeFileSync(`./Topics/Array Methods/${item}.md`);
+// }
